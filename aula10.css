@@ -43,3 +43,16 @@ body {
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 1000px) {
+        .container {
+        width: 10%;
+        height: 80vh;
+        border: none;
+        background-color: pink;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
