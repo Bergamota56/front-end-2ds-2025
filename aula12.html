@@ -57,6 +57,14 @@
             novaLinha.insertCell(0).textContent = valor1;
             novaLinha.insertCell(1).textContent = valor2;
             novaLinha.insertCell(2).textContent = valor3;
+
+            //limpar os campos após adicionar
+            document.getElementById('campo1').value = '';
+            document.getElementById('campo2').value = '';
+            document.getElementById('campo3').value = '';
+
+            //focar no primeiro campo novamente
+            document.getElementById('campo1').focus();
         }
 
     </script>
